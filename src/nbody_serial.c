@@ -7,7 +7,8 @@
  * An introduction to parallel programming, 2nd Edition
  * Peter Pacheco, Matthew Malensek
  *
- * Vitor Duarte FCT/UNL 2021
+ * Students: David Neves 55539 and Rodrigo Mesquita 55902
+ * Teacher: Vitor Duarte FCT/UNL 2021
  * CAD - 2021/2022
  */
 
@@ -130,7 +131,7 @@ int main(int argc, char *argv[]) {
     printf("time: %f s\n", t/(double)CLOCKS_PER_SEC);
 
     FILE* f = fopen("serial_res", "w+");
-    printParticles(f);		// check if this solution is correct
+    printParticles(f);
 
     return 0;
 }

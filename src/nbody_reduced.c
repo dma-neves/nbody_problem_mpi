@@ -261,7 +261,7 @@ int main(int argc, char *argv[])
 
         printf("time: %f s\n", t / (double)CLOCKS_PER_SEC);
         FILE* f = fopen("reduced_res", "w+");
-        printParticles(f); // check if this solution is correct
+        printParticles(f);
 
         free(vel);
         free(pos);

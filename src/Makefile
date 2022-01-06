@@ -12,7 +12,7 @@ nbody_basic: nbody_basic.c
 	mpicc -o $@ $< -lm
 
 nbody_renderer: nbody_renderer.c
-	gcc -o nbody_renderer nbody_renderer.c $(LIBS)
+	gcc -o $@ $< $(LIBS)
 
 runreduced:
 	./nbody_serial
