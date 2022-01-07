@@ -1,13 +1,13 @@
 # Parallelizing the N-Body problem using MPI
 
 **Description**
-    - Assignement
-    - Report
-    - N-body problem
+  - Assignement
+  - Report
+  - N-body problem
 
 **Parrallel algorithms**
-    - Basic
-    - Reduced
+  - Basic
+  - Reduced
 
 **Renderer**
 
