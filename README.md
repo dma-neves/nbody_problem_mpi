@@ -1,5 +1,7 @@
 # Parallelizing the N-Body problem using MPI
 
+![alt text](https://github.com/dma-neves/nbody_problem_mpi/blob/main/other/render_grid.jpg)
+
 **Description**
   - Assignement
   - Report
