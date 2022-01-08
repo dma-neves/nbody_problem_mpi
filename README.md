@@ -10,8 +10,8 @@
 **Programs**
   - **n-body serial:** Serial/sequential aglorithm with both the basic and reduced solutions integrated (switched between the solutions using the `REDUCED` flag).
   - **n-body basic:** Parallel version of the basic solution. Every particle only calculates their receiving forces.
-  - **n-body reduced:** Parallel version of the reduced solution. Every particle calculates receiving and symmetrical forces, reducing the number of iterations required.
-  - **n-body render:** A particle trajectory renderer using the sequential reduced solution with some modifications (Not part of the assignment). A sequence of renderers of a 4 particle system can be seen above.
+  - **n-body reduced:** Parallel version of the reduced solution. Particle calculate receiving and symmetrical forces, reducing the number of iterations required.
+  - **n-body render:** A particle trajectory renderer using the sequential reduced solution with some modifications (Not part of the assignment). A sequence of renders of a 4 particle system can be seen above.
 
 **Requirments**
   - Unix based OS.
