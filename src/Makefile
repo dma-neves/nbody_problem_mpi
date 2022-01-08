@@ -15,11 +15,17 @@ nbody_renderer: nbody_renderer.c
 	gcc -o $@ $< $(LIBS)
 
 runreduced:
+	mpirun -n 4 nbody_reduced
+
+runbasic:
+	mpirun -n 4 nbody_basic
+
+testreduced:
 	./nbody_serial
 	mpirun -n 4 nbody_reduced
 	diff serial_res reduced_res
 
-runbasic:
+testbasic:
 	./nbody_serial
 	mpirun -n 4 nbody_basic
 	diff serial_res basic_res
